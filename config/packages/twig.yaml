@@ -1,0 +1,13 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    debug: true
+    strict_variables: true
+    cache: false
+    globals:
+        author: 'Code with me '
+    
+when@test:
+    twig:
+        strict_variables: true
+
+

@@ -1,0 +1,32 @@
+{
+    "devDependencies": {
+        "@babel/core": "^7.17.0",
+        "@babel/preset-env": "^7.16.0",
+        "@fullhuman/postcss-purgecss": "^7.0.2",
+        "@hotwired/stimulus": "^3.0.0",
+        "@symfony/stimulus-bridge": "^4.0.0",
+        "@symfony/webpack-encore": "^5.1.0",
+        "autoprefixer": "^10.4.21",
+        "core-js": "^3.23.0",
+        "file-loader": "^6.2.0",
+        "glob-all": "^3.3.1",
+        "path": "^0.12.7",
+        "postcss": "^8.5.6",
+        "postcss-load": "^0.1.6",
+        "postcss-loader": "^8.1.0",
+        "purgecss-webpack-plugin": "^7.0.2",
+        "regenerator-runtime": "^0.13.9",
+        "tailwindcss": "^3.4.14",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-notifier": "^1.15.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    }
+}
